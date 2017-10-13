@@ -1,0 +1,35 @@
+[MVN] notes - johanes.ferreira1@wipro.com
+Explicar num contexto geral - ler sobre build continue
+definição
+
+parent
+
+fale sobre
+
+lifecycle
+
+
+Right now what I understand of maven
+
+Maven is a dependency manager used for making setting of enviroments
+faster and less complex.
+Maven has a place named Artifactory? which is a place 
+where all the jar´s are stored and where we download from.
+
+The file pom.xml on the "main" project is the responsible for storing the 
+information about it´s dependencies and can be the parent of other projects/poms
+on the same project.
+The file pom.xml on the main project can be a parent for other pom.xml files which 
+are responsible for their own module.
+
+Having a parent it´s important to make sure that only the parent has to 
+download the common dependencies for the project.
+ 
+Maven has a few lifecycles:
+
+clean - responsible for cleaning the project 
+compile - gets source code and compile it
+install - download it´s dependencies and build the project
+deploy - deploy the project?
+validate - seach for error on project see if all information necessary it´s there
+package - (dont know, just know it exists).
