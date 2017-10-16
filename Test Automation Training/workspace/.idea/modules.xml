@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sample-bank/sample-bank.iml" filepath="$PROJECT_DIR$/sample-bank/sample-bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-bank-be/sample-bank-be.iml" filepath="$PROJECT_DIR$/sample-bank-be/sample-bank-be.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-bank-fe/sample-bank-fe.iml" filepath="$PROJECT_DIR$/sample-bank-fe/sample-bank-fe.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/workspace.iml" filepath="$PROJECT_DIR$/.idea/workspace.iml" />
     </modules>
   </component>
